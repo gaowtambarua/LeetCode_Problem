@@ -8,12 +8,14 @@ import Problem.Binary_Watch;
 import Problem.Can_Convert_String_in_K_Moves;
 import Problem.Count_Binary_Substrings;
 import Problem.Count_the_Number_of_Substrings_With_Dominant_Ones;
+import Problem.Equal_Sum_Grid_Partition_I;
 import Problem.Get_Biggest_Three_Rhombus_Sums_in_a_Grid;
 import Problem.Longest_Balanced_Subarray_I;
 import Problem.Longest_Balanced_Substring_I;
 import Problem.Minimum_Cost_to_Convert_String;
 import Problem.Minimum_Deletions_to_Make_String_Balanced;
 import Problem.Minimum_Removals_to_Balance_Array;
+import Problem.Partition_List;
 import Problem.Spiral_Matrix_II;
 import Problem.Spiral_Matrix_III;
 import Problem.Spiral_Matrix_IV;
@@ -41,6 +43,10 @@ public class Main {
 		// Binary_Watch bw=new Binary_Watch();
 		// Count_Binary_Substrings cbs=new Count_Binary_Substrings();
 		// Count_the_Number_of_Substrings_With_Dominant_Ones ct=new Count_the_Number_of_Substrings_With_Dominant_Ones();
-		Get_Biggest_Three_Rhombus_Sums_in_a_Grid gbt=new Get_Biggest_Three_Rhombus_Sums_in_a_Grid();
+		// Get_Biggest_Three_Rhombus_Sums_in_a_Grid gbt=new Get_Biggest_Three_Rhombus_Sums_in_a_Grid();
+		// Equal_Sum_Grid_Partition_I  eqs=new Equal_Sum_Grid_Partition_I();
+		// 3548
+		
+		Partition_List pl=new Partition_List();
 	}
 }
