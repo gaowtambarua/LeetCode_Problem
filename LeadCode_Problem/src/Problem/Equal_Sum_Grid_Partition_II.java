@@ -8,16 +8,9 @@ public class Equal_Sum_Grid_Partition_II {
 		int left=0,right=grid.length-1,cSize=grid[0].length;
 		while(left<right)
 		{
-//			int[] temp = grid[left];
-//			grid[left] = grid[right];
-//			grid[right] = temp;
-			
-			int []temp=Arrays.copyOf(grid[left],grid[left].length);
-			grid[left]=Arrays.copyOf(grid[right],grid[right].length);
-			grid[right]=Arrays.copyOf(temp,temp.length);
-			left++;
-			right--;
-			
+			int[] temp = grid[left];
+			grid[left] = grid[right];
+			grid[right] = temp;
 			left++;
 			right--;
 		}
