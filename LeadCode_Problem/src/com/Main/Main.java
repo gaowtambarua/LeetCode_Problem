@@ -9,6 +9,7 @@ import Problem.Can_Convert_String_in_K_Moves;
 import Problem.Count_Binary_Substrings;
 import Problem.Count_the_Number_of_Substrings_With_Dominant_Ones;
 import Problem.Equal_Sum_Grid_Partition_I;
+import Problem.Equal_Sum_Grid_Partition_II;
 import Problem.Get_Biggest_Three_Rhombus_Sums_in_a_Grid;
 import Problem.Longest_Balanced_Subarray_I;
 import Problem.Longest_Balanced_Substring_I;
@@ -45,8 +46,7 @@ public class Main {
 		// Count_the_Number_of_Substrings_With_Dominant_Ones ct=new Count_the_Number_of_Substrings_With_Dominant_Ones();
 		// Get_Biggest_Three_Rhombus_Sums_in_a_Grid gbt=new Get_Biggest_Three_Rhombus_Sums_in_a_Grid();
 		// Equal_Sum_Grid_Partition_I  eqs=new Equal_Sum_Grid_Partition_I();
-		// 3548
-		
-		Partition_List pl=new Partition_List();
+		// Partition_List pl=new Partition_List();
+		Equal_Sum_Grid_Partition_II  eqs=new Equal_Sum_Grid_Partition_II ();
 	}
 }
