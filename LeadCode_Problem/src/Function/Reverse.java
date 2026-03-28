@@ -32,7 +32,7 @@ public class Reverse {
 		System.out.println(Arrays.toString(list.get(1)));
 		System.out.println(Arrays.toString(list.get(2)));
 		
-		
+		System.out.println();
 		
 		int left=0,right=a.length-1;
 		while(left<right)
