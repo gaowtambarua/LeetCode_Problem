@@ -23,6 +23,8 @@ import Problem.Problem_2751;
 import Problem.Problem_2840;
 import Problem.Problem_3474;
 import Problem.Problem_3653;
+import Problem.Problem_3740;
+import Problem.Problem_3741;
 import Problem.Problem_735;
 import Problem.Spiral_Matrix_II;
 import Problem.Spiral_Matrix_III;
@@ -63,6 +65,8 @@ public class Main {
 		// Problem_2751 p27=new Problem_2751();
 		// Problem_735 pro=new Problem_735();
 		// Problem_2075 p2=new Problem_2075();
-		Problem_3653 p3653=new Problem_3653();
+		// Problem_3653 p3653=new Problem_3653();
+		// Problem_3740 p3740=new Problem_3740();
+		Problem_3741 p3741=new Problem_3741();
 	}
 }

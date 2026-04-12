@@ -29,5 +29,7 @@ public class Problem_3653 {
 	{
 		int nums[]={1,1,1},queries[][]={{0,2,1,4}};
 		System.out.println(xorAfterQueries(nums, queries));
+		
+		int a=6-8;
 	}
 }
