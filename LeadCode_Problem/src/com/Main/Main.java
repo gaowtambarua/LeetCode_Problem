@@ -18,6 +18,7 @@ import Problem.Minimum_Cost_to_Convert_String;
 import Problem.Minimum_Deletions_to_Make_String_Balanced;
 import Problem.Minimum_Removals_to_Balance_Array;
 import Problem.Partition_List;
+import Problem.Problem_1922;
 import Problem.Problem_2075;
 import Problem.Problem_2751;
 import Problem.Problem_2840;
@@ -67,6 +68,7 @@ public class Main {
 		// Problem_2075 p2=new Problem_2075();
 		// Problem_3653 p3653=new Problem_3653();
 		// Problem_3740 p3740=new Problem_3740();
-		Problem_3741 p3741=new Problem_3741();
+		// Problem_3741 p3741=new Problem_3741();
+		Problem_1922 p1922=new Problem_1922();
 	}
 }
