@@ -24,6 +24,7 @@ import Problem.Problem_2751;
 import Problem.Problem_2840;
 import Problem.Problem_3474;
 import Problem.Problem_3653;
+import Problem.Problem_3655;
 import Problem.Problem_3740;
 import Problem.Problem_3741;
 import Problem.Problem_735;
@@ -69,6 +70,7 @@ public class Main {
 		// Problem_3653 p3653=new Problem_3653();
 		// Problem_3740 p3740=new Problem_3740();
 		// Problem_3741 p3741=new Problem_3741();
-		Problem_1922 p1922=new Problem_1922();
+		// Problem_1922 p1922=new Problem_1922();
+		Problem_3655 p3655=new Problem_3655();
 	}
 }
