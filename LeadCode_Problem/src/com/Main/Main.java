@@ -1,6 +1,10 @@
 package com.Main;
 
 import Function.Reverse;
+import Graph.Problem_1926;
+import Graph.Problem_841;
+import Graph.Problem_886;
+import Graph.Problem_947;
 import Mattrix.Game_of_Life;
 import Mattrix.Maximum_Side_Length_of_a_Square;
 import Mattrix.Set_Matrix_Zeroes;
@@ -75,6 +79,10 @@ public class Main {
 		// Problem_1922 p1922=new Problem_1922();
 		// Problem_3655 p3655=new Problem_3655();
 		// Problem_221 p221=new Problem_221();
-		Problem_199 p199=new Problem_199();
+		// Problem_199 p199=new Problem_199();
+		// Problem_947 p947=new Problem_947();
+		// Problem_1926 pro=new Problem_1926();
+		// Problem_841 p841=new Problem_841();
+		Problem_886 p866=new Problem_886();
 	}
 }
