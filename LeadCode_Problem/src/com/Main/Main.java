@@ -1,10 +1,15 @@
 package com.Main;
 
 import Function.Reverse;
+import Graph.Problem_1443;
+import Graph.Problem_1519;
 import Graph.Problem_1926;
+import Graph.Problem_797;
+import Graph.Problem_834;
 import Graph.Problem_841;
 import Graph.Problem_886;
 import Graph.Problem_947;
+import Graph.Algoritham.Dijkstra;
 import Mattrix.Game_of_Life;
 import Mattrix.Maximum_Side_Length_of_a_Square;
 import Mattrix.Set_Matrix_Zeroes;
@@ -42,6 +47,9 @@ public class Main {
 	
 	public static void main(String[] args)
 	{
+		//Dijkstra dijkstra=new Dijkstra();
+		
+		//---------------------------------------------------------------------------
 		// Reverse rvr=new Reverse();
 		
 		
@@ -83,6 +91,10 @@ public class Main {
 		// Problem_947 p947=new Problem_947();
 		// Problem_1926 pro=new Problem_1926();
 		// Problem_841 p841=new Problem_841();
-		Problem_886 p866=new Problem_886();
+		// Problem_886 p866=new Problem_886();
+		// Problem_834 p834=new Problem_834();
+		// Problem_797 p797=new Problem_797();
+		// Problem_1443 p1443=new Problem_1443();
+		Problem_1519 p1519=new Problem_1519();
 	}
 }
