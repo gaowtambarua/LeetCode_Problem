@@ -1,9 +1,13 @@
 package com.Main;
 
 import Function.Reverse;
+import Graph.Problem_1061_DSU;
 import Graph.Problem_1443;
 import Graph.Problem_1519;
 import Graph.Problem_1926;
+import Graph.Problem_2359;
+import Graph.Problem_2421_Good_Path;
+import Graph.Problem_2492;
 import Graph.Problem_797;
 import Graph.Problem_834;
 import Graph.Problem_841;
@@ -44,26 +48,30 @@ import Problem.Spiral_Matrix_III;
 import Problem.Spiral_Matrix_IV;
 
 public class Main {
-	
+
 	public static void main(String[] args)
 	{
+
+		//////////////////Importent Problem
+		// Problem_2421_Good_Path p2421=new Problem_2421_Good_Path();
+
 		//Dijkstra dijkstra=new Dijkstra();
-		
+
 		//---------------------------------------------------------------------------
 		// Reverse rvr=new Reverse();
-		
-		
+
+
 		//Maximum_Side_Length_of_a_Square msl=new Maximum_Side_Length_of_a_Square();
 		//Set_Matrix_Zeroes smz=new Set_Matrix_Zeroes();
 		//Game_of_Life gol=new Game_of_Life();
 		//Spiral_Matrix sm=new Spiral_Matrix();
 		//Spiral_Matrix_II sm=new Spiral_Matrix_II();
-		
+
 		//Spiral_Matrix_III sm=new Spiral_Matrix_III();
 		//Spiral_Matrix_IV sm=new Spiral_Matrix_IV();
-		
+
 		// Minimum_Cost_to_Convert_String mctc=new Minimum_Cost_to_Convert_String();
-		
+
 		// Can_Convert_String_in_K_Moves  cc=new Can_Convert_String_in_K_Moves();
 		// Minimum_Removals_to_Balance_Array mrt=new Minimum_Removals_to_Balance_Array();
 		// Minimum_Deletions_to_Make_String_Balanced mdtm=new Minimum_Deletions_to_Make_String_Balanced();
@@ -95,6 +103,11 @@ public class Main {
 		// Problem_834 p834=new Problem_834();
 		// Problem_797 p797=new Problem_797();
 		// Problem_1443 p1443=new Problem_1443();
-		Problem_1519 p1519=new Problem_1519();
+		// Problem_1519 p1519=new Problem_1519();
+		// Problem_1061_DSU p1061=new Problem_1061_DSU();
+		// Problem_2359 p2359=new Problem_2359();
+		Problem_2492 p2492=new Problem_2492();
+
+
 	}
 }
