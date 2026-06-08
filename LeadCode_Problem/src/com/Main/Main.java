@@ -8,6 +8,7 @@ import Graph.Problem_1926;
 import Graph.Problem_2359;
 import Graph.Problem_2421_Good_Path;
 import Graph.Problem_2492;
+import Graph.Problem_787;
 import Graph.Problem_797;
 import Graph.Problem_834;
 import Graph.Problem_841;
@@ -106,7 +107,8 @@ public class Main {
 		// Problem_1519 p1519=new Problem_1519();
 		// Problem_1061_DSU p1061=new Problem_1061_DSU();
 		// Problem_2359 p2359=new Problem_2359();
-		Problem_2492 p2492=new Problem_2492();
+		// Problem_2492 p2492=new Problem_2492();
+		Problem_787  p787=new Problem_787();
 
 
 	}

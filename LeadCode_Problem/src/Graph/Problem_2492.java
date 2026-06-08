@@ -2,15 +2,15 @@ package Graph;
 import java.util.*;
 public class Problem_2492 {
 	
-//	class Pair{
-//		int v;
-//		int d;
-//		public Pair(int v,int d)
-//		{
-//			this.v=v;
-//			this.d =d;
-//		}
-//	}
+	class Pair{
+		int v;
+		int d;
+		public Pair(int v,int d)
+		{
+			this.v=v;
+			this.d =d;
+		}
+	}
 //	int result=Integer.MAX_VALUE;
 //	
 //	private void dfs(Map<Integer,List<Pair>> adj,int node,boolean[] visited)
@@ -101,6 +101,29 @@ public class Problem_2492 {
 				{1,4,7}
 		};
 		
-		System.out.println(minScore(n, roads));
+		List<List<Pair>>adj=new ArrayList<List<Pair>>();
+		for(int i=0;i<=4;i++)
+		{
+			adj.add(new ArrayList<Pair>());
+		}
+		
+//		List<int[]> graph=new ArrayList<int[]>();
+//		graph.add(new int[]{1,2});
+		
+		List<int[]>[] graph=new ArrayList[5];
+		for(int i=1;i<=4;i++)
+		{
+			graph[i]=new ArrayList<int[]>();
+		}
+		for(int[]road : roads)
+		{
+			int u=road[0];
+			int v=road[1];
+			int c=road[1];
+			
+			adj.get(u).add(new Pair(v,c));
+			graph[u].add(new int[]{v,c});
+			
+		}
 	}
 }

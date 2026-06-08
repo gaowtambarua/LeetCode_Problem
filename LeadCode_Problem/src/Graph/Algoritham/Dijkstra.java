@@ -1,7 +1,7 @@
 package Graph.Algoritham;
 import java.util.*;
 public class Dijkstra {
-
+/////////////////////// using for sortest path
 	class Pair{
 		int u;
 		int d;
@@ -83,7 +83,7 @@ public class Dijkstra {
 				(a,b)->a.d-b.d
 				
 				);
-		dist[0]=0;
+		dist[src]=0;
 		pq.add(new Pair(src,0));
 		
 		while(!pq.isEmpty())
