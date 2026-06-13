@@ -6,16 +6,12 @@ public class Problem_787 {
 
 
 	public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
-		int[] dist=new int[n];
-		Arrays.fill(dist,Integer.MAX_VALUE);
 		
 		List<int[]>[] graph=new ArrayList[n];
-		
 		for(int i=0;i<n;i++)
 		{
 			graph[i]=new ArrayList<int[]>();
 		}
-		
 		for(int[] flight : flights)
 		{
 			int u=flight[0];
@@ -25,29 +21,47 @@ public class Problem_787 {
 			graph[u].add(new int[]{v,d});
 		}
 		
-		PriorityQueue<int[]> pq=new PriorityQueue<int[]>((a,b)->a[1]-b[1]);
-		pq.offer(new int[]{src,0});
+		int[] dist=new int[n];
+		Arrays.fill(dist,Integer.MAX_VALUE);
+		
+		Queue<int[]> pq=new LinkedList<int[]>();
 		dist[src]=0;
-		int i=0;
-		while(!pq.isEmpty()&&i!=k)
+		pq.add(new int[]{src,0});
+		int step=0;
+		while(!pq.isEmpty()&& step<=k)
 		{
-			int[] cur=pq.poll();
-			int u=cur[0];
-			
-			for(int[] child : graph[u])
+			int pqSize=pq.size();
+			for(int i=0;i<pqSize;i++)
 			{
-				int v=child[0];
-				int d=child[1];
-				if(dist[u]+d<dist[v])
+				int[] present=pq.poll();
+				int u=present[0];
+				
+				for(int[] child : graph[u])
 				{
-					dist[v]=dist[u]+d;
-					pq.offer(new int[]{v,dist[v]});
+					int v=child[0];
+					int d=child[1];
+					if(present[1]+d<dist[v])
+					{
+						dist[v]=present[1]+d;
+						pq.add(new int[]{v,dist[v]});
+					}
 				}
 			}
-			k++;
+			
+			
+			step++;
 		}
 		
-		return dist[dst]==Integer.MAX_VALUE?-1:dist[dst];
+		return dist[dst]==Integer.MAX_VALUE? -1 : dist[dst];
+	}
+	
+	
+	public Problem_787()
+	{
+		int[][] flights={{0,1,100},{1,2,100},{2,0,100},{1,3,600},{2,3,200}};
+		int src=0,dst=3,k=1;
+		
+		System.out.println(findCheapestPrice(4,flights,src,dst,k));
 	}
 
 

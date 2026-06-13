@@ -3,8 +3,10 @@ package com.Main;
 import Function.Reverse;
 import Graph.Problem_1061_DSU;
 import Graph.Problem_1443;
+import Graph.Problem_1466;
 import Graph.Problem_1519;
 import Graph.Problem_1926;
+import Graph.Problem_2316;
 import Graph.Problem_2359;
 import Graph.Problem_2421_Good_Path;
 import Graph.Problem_2492;
@@ -108,8 +110,8 @@ public class Main {
 		// Problem_1061_DSU p1061=new Problem_1061_DSU();
 		// Problem_2359 p2359=new Problem_2359();
 		// Problem_2492 p2492=new Problem_2492();
-		Problem_787  p787=new Problem_787();
-
-
+		// Problem_787  p787=new Problem_787();
+		// Problem_1466 p1466=new Problem_1466();
+		Problem_2316 p2316=new Problem_2316();
 	}
 }
