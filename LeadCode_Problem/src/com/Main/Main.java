@@ -16,7 +16,9 @@ import Graph.Problem_834;
 import Graph.Problem_841;
 import Graph.Problem_886;
 import Graph.Problem_947;
+import Graph.Algoritham.DFS_Cycle_Detection;
 import Graph.Algoritham.Dijkstra;
+import Graph.Algoritham.Topological_Sort_BFS;
 import Mattrix.Game_of_Life;
 import Mattrix.Maximum_Side_Length_of_a_Square;
 import Mattrix.Set_Matrix_Zeroes;
@@ -34,6 +36,7 @@ import Problem.Minimum_Cost_to_Convert_String;
 import Problem.Minimum_Deletions_to_Make_String_Balanced;
 import Problem.Minimum_Removals_to_Balance_Array;
 import Problem.Partition_List;
+import Problem.Problem_133;
 import Problem.Problem_1922;
 import Problem.Problem_199;
 import Problem.Problem_2075;
@@ -58,7 +61,9 @@ public class Main {
 		//////////////////Importent Problem
 		// Problem_2421_Good_Path p2421=new Problem_2421_Good_Path();
 
-		//Dijkstra dijkstra=new Dijkstra();
+		// Dijkstra dijkstra=new Dijkstra();
+		// Topological_Sort_BFS tsb=new Topological_Sort_BFS();
+		// DFS_Cycle_Detection dcd=new DFS_Cycle_Detection();
 
 		//---------------------------------------------------------------------------
 		// Reverse rvr=new Reverse();
@@ -112,6 +117,7 @@ public class Main {
 		// Problem_2492 p2492=new Problem_2492();
 		// Problem_787  p787=new Problem_787();
 		// Problem_1466 p1466=new Problem_1466();
-		Problem_2316 p2316=new Problem_2316();
+		// Problem_2316 p2316=new Problem_2316();
+		// Problem_133 p133=new Problem_133();
 	}
 }
