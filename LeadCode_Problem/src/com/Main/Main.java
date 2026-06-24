@@ -5,6 +5,7 @@ import Graph.Problem_1061_DSU;
 import Graph.Problem_1443;
 import Graph.Problem_1466;
 import Graph.Problem_1519;
+import Graph.Problem_1857;
 import Graph.Problem_1926;
 import Graph.Problem_2316;
 import Graph.Problem_2359;
@@ -119,5 +120,6 @@ public class Main {
 		// Problem_1466 p1466=new Problem_1466();
 		// Problem_2316 p2316=new Problem_2316();
 		// Problem_133 p133=new Problem_133();
+		Problem_1857 p1857=new Problem_1857();
 	}
 }
