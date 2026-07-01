@@ -5,12 +5,16 @@ import Graph.Problem_1061_DSU;
 import Graph.Problem_1443;
 import Graph.Problem_1466;
 import Graph.Problem_1519;
+import Graph.Problem_1557;
+import Graph.Problem_1579_DSU;
 import Graph.Problem_1857;
+import Graph.Problem_1857_DSU;
 import Graph.Problem_1926;
 import Graph.Problem_2316;
 import Graph.Problem_2359;
 import Graph.Problem_2421_Good_Path;
 import Graph.Problem_2492;
+import Graph.Problem_399;
 import Graph.Problem_787;
 import Graph.Problem_797;
 import Graph.Problem_834;
@@ -120,6 +124,10 @@ public class Main {
 		// Problem_1466 p1466=new Problem_1466();
 		// Problem_2316 p2316=new Problem_2316();
 		// Problem_133 p133=new Problem_133();
-		Problem_1857 p1857=new Problem_1857();
+		// Problem_1857 p1857=new Problem_1857();
+		// Problem_1857_DSU p1857=new Problem_1857_DSU();
+		// Problem_1579_DSU p1579=new Problem_1579_DSU();
+		// Problem_1557 p1557=new Problem_1557();
+		Problem_399 p399=new Problem_399();
 	}
 }
