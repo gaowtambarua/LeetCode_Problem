@@ -1,7 +1,7 @@
 package Graph.Algoritham;
 import java.util.*;
 public class Dijkstra {
-/////////////////////// using for sortest path
+/////////////////////// using for sortest path O((V + E) log V)
 	class Pair{
 		int u;
 		int d;

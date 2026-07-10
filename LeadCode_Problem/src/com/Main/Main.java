@@ -46,6 +46,7 @@ import Problem.Problem_133;
 import Problem.Problem_1922;
 import Problem.Problem_199;
 import Problem.Problem_2075;
+import Problem.Problem_2101;
 import Problem.Problem_221;
 import Problem.Problem_2751;
 import Problem.Problem_2840;
@@ -55,6 +56,7 @@ import Problem.Problem_3655;
 import Problem.Problem_3740;
 import Problem.Problem_3741;
 import Problem.Problem_735;
+import Problem.Problem_802;
 import Problem.Spiral_Matrix_II;
 import Problem.Spiral_Matrix_III;
 import Problem.Spiral_Matrix_IV;
@@ -107,7 +109,7 @@ public class Main {
 		// Problem_3740 p3740=new Problem_3740();
 		// Problem_3741 p3741=new Problem_3741();
 		// Problem_1922 p1922=new Problem_1922();
-		// Problem_3655 p3655=new Problem_3655();
+		// Problem_3655 p3655=new Problem_3655(); // using squre root decomsiton.
 		// Problem_221 p221=new Problem_221();
 		// Problem_199 p199=new Problem_199();
 		// Problem_947 p947=new Problem_947();
@@ -130,6 +132,9 @@ public class Main {
 		// Problem_1579_DSU p1579=new Problem_1579_DSU();
 		// Problem_1557 p1557=new Problem_1557();
 		// Problem_399 p399=new Problem_399();
-		Problem_1091 p1091=new Problem_1091();
+		// Problem_1091 p1091=new Problem_1091();
+		// Problem_2101 p2101=new Problem_2101(); ////  Detonate the Maximum Bombs
+		Problem_802 p802=new Problem_802();
+
 	}
 }
