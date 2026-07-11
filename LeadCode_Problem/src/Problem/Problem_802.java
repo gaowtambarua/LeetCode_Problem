@@ -42,6 +42,6 @@ public class Problem_802 {
 
 	public Problem_802()
 	{
-
+		
 	}
 }

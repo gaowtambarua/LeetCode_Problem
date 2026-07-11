@@ -1,6 +1,16 @@
 package Graph.Algoritham;
 import java.util.*;
 public class Kruskal_Algorithm {
+	
+//	ধরুন আপনার কাছে কয়েকটি শহর আছে, এবং প্রতিটি শহরের মধ্যে রাস্তা তৈরি করার খরচ (weight) দেওয়া আছে।
+//
+//	আপনার লক্ষ্য হলো:
+//
+//	সব শহরকে সংযুক্ত করা।
+//	যত কম খরচে সম্ভব সংযুক্ত করা।
+//	কোনো অপ্রয়োজনীয় লুপ (cycle) থাকবে না।
+	
+	
 	class Edge {
 		int u, v, wt;
 
@@ -63,11 +73,20 @@ public class Kruskal_Algorithm {
 
 		// STEP 1: sort edges by weight
 
-		edges.add(new Edge(4, 1, 1));
-		edges.add(new Edge(2, 3, 1));
-		edges.add(new Edge(3, 4, 1));
+//		edges.add(new Edge(4, 1, 1));
+//		edges.add(new Edge(2, 3, 1));
+//		edges.add(new Edge(3, 4, 1));
+//		edges.add(new Edge(1, 2, 1));
+//		edges.add(new Edge(3, 1, 1));
+//		Collections.sort(edges,(a,b)->a.wt-b.wt);
+		
+		
 		edges.add(new Edge(1, 2, 1));
-		edges.add(new Edge(3, 1, 1));
+		edges.add(new Edge(2, 3, 2));
+		
+		edges.add(new Edge(1, 4, 1));
+		edges.add(new Edge(1, 3, 1));
+		
 		Collections.sort(edges,(a,b)->a.wt-b.wt);
 
 		DSU dsu=new DSU(V);
@@ -83,9 +102,12 @@ public class Kruskal_Algorithm {
 		{
 			int u=e.u;
 			int v=e.v;
-			if(dsu.union(u,v))
+			boolean t=dsu.union(u,v);
+			System.out.println(e.u + " -- " + e.v + " == " + e.wt);
+			System.out.println(t);
+			if(t)
 			{
-				System.out.println(e.u + " -- " + e.v + " == " + e.wt);
+				
 				 mstWeight =mstWeight+ e.wt;
 			}
 		}

@@ -1,6 +1,7 @@
 eclipse.preferences.version=1
 encoding//src/Graph/Algoritham/Advance_DSU_Rank.java=UTF-8
 encoding//src/Graph/Algoritham/Directed_Cycle_Detection.java=UTF-8
+encoding//src/Graph/Algoritham/Kruskal_Algorithm.java=UTF-8
 encoding//src/Graph/Algoritham/Topological_Sort_BFS.java=UTF-8
 encoding//src/Graph/Problem_947.java=UTF-8
 encoding//src/Mattrix/Maximum_Side_Length_of_a_Square.java=UTF-8

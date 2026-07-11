@@ -8,6 +8,7 @@ import Graph.Problem_1466;
 import Graph.Problem_1519;
 import Graph.Problem_1557;
 import Graph.Problem_1579_DSU;
+import Graph.Problem_1615;
 import Graph.Problem_1857;
 import Graph.Problem_1857_DSU;
 import Graph.Problem_1926;
@@ -24,6 +25,7 @@ import Graph.Problem_886;
 import Graph.Problem_947;
 import Graph.Algoritham.DFS_Cycle_Detection;
 import Graph.Algoritham.Dijkstra;
+import Graph.Algoritham.Kruskal_Algorithm;
 import Graph.Algoritham.Topological_Sort_BFS;
 import Mattrix.Game_of_Life;
 import Mattrix.Maximum_Side_Length_of_a_Square;
@@ -72,6 +74,7 @@ public class Main {
 		// Dijkstra dijkstra=new Dijkstra();
 		// Topological_Sort_BFS tsb=new Topological_Sort_BFS();
 		// DFS_Cycle_Detection dcd=new DFS_Cycle_Detection();
+		Kruskal_Algorithm ksa=new Kruskal_Algorithm();
 
 		//---------------------------------------------------------------------------
 		// Reverse rvr=new Reverse();
@@ -134,7 +137,7 @@ public class Main {
 		// Problem_399 p399=new Problem_399();
 		// Problem_1091 p1091=new Problem_1091();
 		// Problem_2101 p2101=new Problem_2101(); ////  Detonate the Maximum Bombs
-		Problem_802 p802=new Problem_802();
-
+		// Problem_802 p802=new Problem_802();
+		// Problem_1615 p1615=new Problem_1615();
 	}
 }
