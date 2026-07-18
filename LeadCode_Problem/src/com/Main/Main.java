@@ -27,6 +27,8 @@ import Graph.Algoritham.DFS_Cycle_Detection;
 import Graph.Algoritham.Dijkstra;
 import Graph.Algoritham.Kruskal_Algorithm;
 import Graph.Algoritham.Topological_Sort_BFS;
+import Graph.Hard.Problem_1203_TS;
+import Graph.Hard.Problem_1489_MST;
 import Mattrix.Game_of_Life;
 import Mattrix.Maximum_Side_Length_of_a_Square;
 import Mattrix.Set_Matrix_Zeroes;
@@ -74,7 +76,7 @@ public class Main {
 		// Dijkstra dijkstra=new Dijkstra();
 		// Topological_Sort_BFS tsb=new Topological_Sort_BFS();
 		// DFS_Cycle_Detection dcd=new DFS_Cycle_Detection();
-		Kruskal_Algorithm ksa=new Kruskal_Algorithm();
+		// Kruskal_Algorithm ksa=new Kruskal_Algorithm();
 
 		//---------------------------------------------------------------------------
 		// Reverse rvr=new Reverse();
@@ -139,5 +141,7 @@ public class Main {
 		// Problem_2101 p2101=new Problem_2101(); ////  Detonate the Maximum Bombs
 		// Problem_802 p802=new Problem_802();
 		// Problem_1615 p1615=new Problem_1615();
+		//Problem_1489_MST p1489=new Problem_1489_MST();
+		Problem_1203_TS p1203=new Problem_1203_TS();
 	}
 }

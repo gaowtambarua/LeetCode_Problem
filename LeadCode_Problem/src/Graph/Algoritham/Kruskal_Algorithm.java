@@ -1,7 +1,7 @@
 package Graph.Algoritham;
 import java.util.*;
 public class Kruskal_Algorithm {
-	
+	//mst find
 //	ধরুন আপনার কাছে কয়েকটি শহর আছে, এবং প্রতিটি শহরের মধ্যে রাস্তা তৈরি করার খরচ (weight) দেওয়া আছে।
 //
 //	আপনার লক্ষ্য হলো:
