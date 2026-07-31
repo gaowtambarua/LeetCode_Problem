@@ -29,6 +29,8 @@ import Graph.Algoritham.Kruskal_Algorithm;
 import Graph.Algoritham.Topological_Sort_BFS;
 import Graph.Hard.Problem_1203_TS;
 import Graph.Hard.Problem_1489_MST;
+import Graph.Hard.Problem_332;
+import Graph.Hard.Problem_847_Bitmask;
 import Mattrix.Game_of_Life;
 import Mattrix.Maximum_Side_Length_of_a_Square;
 import Mattrix.Set_Matrix_Zeroes;
@@ -141,7 +143,9 @@ public class Main {
 		// Problem_2101 p2101=new Problem_2101(); ////  Detonate the Maximum Bombs
 		// Problem_802 p802=new Problem_802();
 		// Problem_1615 p1615=new Problem_1615();
-		//Problem_1489_MST p1489=new Problem_1489_MST();
-		Problem_1203_TS p1203=new Problem_1203_TS();
+		// Problem_1489_MST p1489=new Problem_1489_MST();
+		// Problem_1203_TS p1203=new Problem_1203_TS();
+		// Problem_332 p332=new Problem_332();
+		Problem_847_Bitmask p847=new Problem_847_Bitmask();
 	}
 }
