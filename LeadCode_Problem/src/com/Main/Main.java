@@ -3,6 +3,7 @@ package com.Main;
 import Function.Reverse;
 import Graph.Problem_1061_DSU;
 import Graph.Problem_1091;
+import Graph.Problem_1361;
 import Graph.Problem_1443;
 import Graph.Problem_1466;
 import Graph.Problem_1519;
@@ -146,6 +147,7 @@ public class Main {
 		// Problem_1489_MST p1489=new Problem_1489_MST();
 		// Problem_1203_TS p1203=new Problem_1203_TS();
 		// Problem_332 p332=new Problem_332();
-		Problem_847_Bitmask p847=new Problem_847_Bitmask();
+		// Problem_847_Bitmask p847=new Problem_847_Bitmask();
+		Problem_1361 p1361=new Problem_1361();
 	}
 }
