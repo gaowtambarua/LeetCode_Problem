@@ -30,6 +30,8 @@ import Graph.Algoritham.Kruskal_Algorithm;
 import Graph.Algoritham.Topological_Sort_BFS;
 import Graph.Hard.Problem_1203_TS;
 import Graph.Hard.Problem_1489_MST;
+import Graph.Hard.Problem_2050_Topo_Logical_sort;
+import Graph.Hard.Problem_2642;
 import Graph.Hard.Problem_332;
 import Graph.Hard.Problem_847_Bitmask;
 import Mattrix.Game_of_Life;
@@ -148,6 +150,8 @@ public class Main {
 		// Problem_1203_TS p1203=new Problem_1203_TS();
 		// Problem_332 p332=new Problem_332();
 		// Problem_847_Bitmask p847=new Problem_847_Bitmask();
-		Problem_1361 p1361=new Problem_1361();
+		// Problem_1361 p1361=new Problem_1361();
+		// Problem_2050_Topo_Logical_sort p2050=new Problem_2050_Topo_Logical_sort();
+		Problem_2642 p2642=new Problem_2642();
 	}
 }
