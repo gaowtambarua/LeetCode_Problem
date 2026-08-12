@@ -32,6 +32,7 @@ import Graph.Hard.Problem_1203_TS;
 import Graph.Hard.Problem_1489_MST;
 import Graph.Hard.Problem_2050_Topo_Logical_sort;
 import Graph.Hard.Problem_2642;
+import Graph.Hard.Problem_2959_Bit_ManuPulation_Floyd_Warshall;
 import Graph.Hard.Problem_332;
 import Graph.Hard.Problem_815;
 import Graph.Hard.Problem_847_Bitmask;
@@ -154,6 +155,7 @@ public class Main {
 		// Problem_1361 p1361=new Problem_1361();
 		// Problem_2050_Topo_Logical_sort p2050=new Problem_2050_Topo_Logical_sort();
 		// Problem_2642 p2642=new Problem_2642();
-		Problem_815 p815=new Problem_815();
+		// Problem_815 p815=new Problem_815();
+		Problem_2959_Bit_ManuPulation_Floyd_Warshall p2959=new Problem_2959_Bit_ManuPulation_Floyd_Warshall();
 	}
 }
