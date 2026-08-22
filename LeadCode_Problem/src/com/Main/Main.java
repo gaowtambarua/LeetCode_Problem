@@ -32,6 +32,7 @@ import Graph.Algoritham.Kruskal_Algorithm;
 import Graph.Algoritham.Topological_Sort_BFS;
 import Graph.Hard.Problem_1203_TS;
 import Graph.Hard.Problem_1489_MST;
+import Graph.Hard.Problem_1579;
 import Graph.Hard.Problem_2045;
 import Graph.Hard.Problem_2050_Topo_Logical_sort;
 import Graph.Hard.Problem_2642;
@@ -162,6 +163,7 @@ public class Main {
 		// Problem_2959_Bit_ManuPulation_Floyd_Warshall p2959=new Problem_2959_Bit_ManuPulation_Floyd_Warshall();
 		// Problem_2976 _Floyd_Warshall=new Problem_2976();
 		// Problem_3015 p3015=new Problem_3015();
-		Problem_2045 p2045=new Problem_2045();
+		// Problem_2045 p2045=new Problem_2045();
+		Problem_1579 p2045=new Problem_1579();
 	}
 }
