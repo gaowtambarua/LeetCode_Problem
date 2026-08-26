@@ -13,6 +13,8 @@ import Graph.Problem_1615;
 import Graph.Problem_1857;
 import Graph.Problem_1857_DSU;
 import Graph.Problem_1926;
+import Graph.Problem_2192;
+import Graph.Problem_2285;
 import Graph.Problem_2316;
 import Graph.Problem_2359;
 import Graph.Problem_2421_Good_Path;
@@ -166,6 +168,8 @@ public class Main {
 		// Problem_3015 p3015=new Problem_3015();
 		// Problem_2045 p2045=new Problem_2045();
 		// Problem_1579 p2045=new Problem_1579();
-		Problem_2392_topSort_DFS p2392=new Problem_2392_topSort_DFS();
+		// Problem_2392_topSort_DFS p2392=new Problem_2392_topSort_DFS();
+		// Problem_2192 p2192=new Problem_2192();
+		// Problem_2285 pq2285=new Problem_2285();
 	}
 }
