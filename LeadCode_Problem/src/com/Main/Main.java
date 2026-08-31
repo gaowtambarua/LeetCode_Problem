@@ -1,5 +1,6 @@
 package com.Main;
 
+import DP.Hard.Problem_514;
 import Function.Reverse;
 import Graph.Problem_1061_DSU;
 import Graph.Problem_1091;
@@ -171,5 +172,6 @@ public class Main {
 		// Problem_2392_topSort_DFS p2392=new Problem_2392_topSort_DFS();
 		// Problem_2192 p2192=new Problem_2192();
 		// Problem_2285 pq2285=new Problem_2285();
+		Problem_514 p514=new Problem_514();
 	}
 }
