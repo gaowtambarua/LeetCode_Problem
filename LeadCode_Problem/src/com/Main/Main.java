@@ -40,6 +40,7 @@ import Graph.Hard.Problem_1489_MST;
 import Graph.Hard.Problem_1579;
 import Graph.Hard.Problem_2045;
 import Graph.Hard.Problem_2050_Topo_Logical_sort;
+import Graph.Hard.Problem_2092;
 import Graph.Hard.Problem_2392_topSort_DFS;
 import Graph.Hard.Problem_2642;
 import Graph.Hard.Problem_2959_Bit_ManuPulation_Floyd_Warshall;
@@ -182,6 +183,7 @@ public class Main {
 		// Problem_310 p310=new Problem_310();
 		// Problem_752 p752=new Problem_752();
 		// Problem_3123 p3123=new Problem_3123();
-		Problem_3108 p3108=new Problem_3108();
+		// Problem_3108 p3108=new Problem_3108();
+		Problem_2092 p2092=new Problem_2092();
 	}
 }
