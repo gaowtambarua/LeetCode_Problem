@@ -1,7 +1,7 @@
 package Graph.Algoritham;
 
 public class Advance_DSU_Rank {
-	
+//	alpha(totalSell) or alpah(n) time complexity
 	class DSU{
 		int[] parent;
 		int[] rank;

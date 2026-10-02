@@ -4,11 +4,13 @@ import DP.Hard.Problem_1239;
 import DP.Hard.Problem_1335;
 import DP.Hard.Problem_264;
 import DP.Hard.Problem_514;
+import DP.Medium.Problem_279;
 import Function.Reverse;
 import Graph.Problem_1061_DSU;
 import Graph.Problem_1091;
 import Graph.Problem_1361;
 import Graph.Problem_1443;
+import Graph.Problem_1462;
 import Graph.Problem_1466;
 import Graph.Problem_1519;
 import Graph.Problem_1557;
@@ -23,6 +25,7 @@ import Graph.Problem_2316;
 import Graph.Problem_2359;
 import Graph.Problem_2421_Good_Path;
 import Graph.Problem_2492;
+import Graph.Problem_2658_DSU_NEW_Technique;
 import Graph.Problem_2924;
 import Graph.Problem_2976;
 import Graph.Problem_3015;
@@ -207,6 +210,8 @@ public class Main {
 		// Problem_1239 p1239=new Problem_1239();
 		// Problem_1368 p1368 =new Problem_1368();
 		// Problem_264 p264=new Problem_264();
-		
+		// Problem_279 p279=new Problem_279();
+		// Problem_1462 p1462=new Problem_1462();
+		Problem_2658_DSU_NEW_Technique p2658=new Problem_2658_DSU_NEW_Technique();
 	}
 }
