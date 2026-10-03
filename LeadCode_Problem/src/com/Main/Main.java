@@ -1,5 +1,6 @@
 package com.Main;
 
+import DP.Hard.Problem_1235;
 import DP.Hard.Problem_1239;
 import DP.Hard.Problem_1335;
 import DP.Hard.Problem_264;
@@ -19,6 +20,7 @@ import Graph.Problem_1615;
 import Graph.Problem_1857;
 import Graph.Problem_1857_DSU;
 import Graph.Problem_1926;
+import Graph.Problem_200;
 import Graph.Problem_2192;
 import Graph.Problem_2285;
 import Graph.Problem_2316;
@@ -32,6 +34,7 @@ import Graph.Problem_3015;
 import Graph.Problem_310;
 import Graph.Problem_3243;
 import Graph.Problem_399;
+import Graph.Problem_695;
 import Graph.Problem_752;
 import Graph.Problem_787;
 import Graph.Problem_797;
@@ -212,6 +215,9 @@ public class Main {
 		// Problem_264 p264=new Problem_264();
 		// Problem_279 p279=new Problem_279();
 		// Problem_1462 p1462=new Problem_1462();
-		Problem_2658_DSU_NEW_Technique p2658=new Problem_2658_DSU_NEW_Technique();
+		// Problem_2658_DSU_NEW_Technique p2658=new Problem_2658_DSU_NEW_Technique();
+		// Problem_1235 p1235=new Problem_1235();
+		// Problem_200 p200=new Problem_200();
+		Problem_695 p695=new Problem_695();
 	}
 }
