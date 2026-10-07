@@ -3,6 +3,7 @@ package com.Main;
 import DP.Hard.Problem_1235;
 import DP.Hard.Problem_1239;
 import DP.Hard.Problem_1335;
+import DP.Hard.Problem_1751;
 import DP.Hard.Problem_264;
 import DP.Hard.Problem_514;
 import DP.Medium.Problem_279;
@@ -34,6 +35,7 @@ import Graph.Problem_3015;
 import Graph.Problem_310;
 import Graph.Problem_3243;
 import Graph.Problem_399;
+import Graph.Problem_419;
 import Graph.Problem_695;
 import Graph.Problem_752;
 import Graph.Problem_787;
@@ -42,6 +44,7 @@ import Graph.Problem_834;
 import Graph.Problem_841;
 import Graph.Problem_886;
 import Graph.Problem_947;
+import Graph.Problem_994;
 import Graph.Algoritham.DFS_Cycle_Detection;
 import Graph.Algoritham.Dijkstra;
 import Graph.Algoritham.Kruskal_Algorithm;
@@ -65,6 +68,8 @@ import Graph.Hard.Problem_3419_Medium_Hard;
 import Graph.Hard.Problem_514_dijkstra;
 import Graph.Hard.Problem_815;
 import Graph.Hard.Problem_847_Bitmask;
+import Heap_Priority_Queue_Greedy.Problem_1353_Pq_Technique;
+import Heap_Priority_Queue_Greedy.Problem_1834;
 import Mattrix.Game_of_Life;
 import Mattrix.Maximum_Side_Length_of_a_Square;
 import Mattrix.Set_Matrix_Zeroes;
@@ -218,6 +223,12 @@ public class Main {
 		// Problem_2658_DSU_NEW_Technique p2658=new Problem_2658_DSU_NEW_Technique();
 		// Problem_1235 p1235=new Problem_1235();
 		// Problem_200 p200=new Problem_200();
-		Problem_695 p695=new Problem_695();
+		// Problem_695 p695=new Problem_695();
+		// Problem_1751 p1751=new Problem_1751();
+		// Problem_1353_Pq_Technique p1353=new Problem_1353_Pq_Technique();
+		// Problem_1834 p1834=new Problem_1834();
+		// Problem_419 p419=new Problem_419();
+		Problem_994 p994=new Problem_994();
+		
 	}
 }
