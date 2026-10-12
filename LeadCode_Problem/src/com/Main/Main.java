@@ -1,12 +1,12 @@
 package com.Main;
-
+import Graph.Hard.*;
 import DP.Hard.Problem_1235;
 import DP.Hard.Problem_1239;
 import DP.Hard.Problem_1335;
 import DP.Hard.Problem_1751;
 import DP.Hard.Problem_264;
 import DP.Hard.Problem_514;
-import DP.Medium.Problem_279;
+import DP.Medium.*;
 import Function.Reverse;
 import Graph.Problem_1061_DSU;
 import Graph.Problem_1091;
@@ -45,6 +45,7 @@ import Graph.Problem_841;
 import Graph.Problem_886;
 import Graph.Problem_947;
 import Graph.Problem_994;
+import Graph.Algoritham.Bipartite;
 import Graph.Algoritham.DFS_Cycle_Detection;
 import Graph.Algoritham.Dijkstra;
 import Graph.Algoritham.Kruskal_Algorithm;
@@ -68,8 +69,7 @@ import Graph.Hard.Problem_3419_Medium_Hard;
 import Graph.Hard.Problem_514_dijkstra;
 import Graph.Hard.Problem_815;
 import Graph.Hard.Problem_847_Bitmask;
-import Heap_Priority_Queue_Greedy.Problem_1353_Pq_Technique;
-import Heap_Priority_Queue_Greedy.Problem_1834;
+import Heap_Priority_Queue_Greedy.*;
 import Mattrix.Game_of_Life;
 import Mattrix.Maximum_Side_Length_of_a_Square;
 import Mattrix.Set_Matrix_Zeroes;
@@ -228,7 +228,15 @@ public class Main {
 		// Problem_1353_Pq_Technique p1353=new Problem_1353_Pq_Technique();
 		// Problem_1834 p1834=new Problem_1834();
 		// Problem_419 p419=new Problem_419();
-		Problem_994 p994=new Problem_994();
+		// Problem_994 p994=new Problem_994();
+		// Problem_1705 p1705=new Problem_1705();
+		// Problem_11 p11=new Problem_11();
+		// Problem_2127 p2127=new Problem_2127();
+		// Problem_446 p446=new Problem_446();
+		// Problem_931 p31=new Problem_931();
+		// Problem_1143 p31=new Problem_1143();
+		// Problem_785 pBipartite=new Problem_785();
+		Problem_2493 p2493=new Problem_2493();
 		
 	}
 }
