@@ -236,7 +236,11 @@ public class Main {
 		// Problem_931 p31=new Problem_931();
 		// Problem_1143 p31=new Problem_1143();
 		// Problem_785 pBipartite=new Problem_785();
-		Problem_2493 p2493=new Problem_2493();
+		// Problem_2493 p2493=new Problem_2493();
+		// Problem_309 p309=new Problem_309(); 
+		// Problem_790_Google p790=new Problem_790_Google();
+		// Problem_55_Google p55=new Problem_55_Google();
+		Problem_926_Google p926=new Problem_926_Google();
 		
 	}
 }
