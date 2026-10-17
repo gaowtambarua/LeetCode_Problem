@@ -17,10 +17,11 @@ import Graph.Problem_1466;
 import Graph.Problem_1519;
 import Graph.Problem_1557;
 import Graph.Problem_1579_DSU;
-import Graph.Problem_1615;
+import Graph.*;
 import Graph.Problem_1857;
 import Graph.Problem_1857_DSU;
 import Graph.Problem_1926;
+import Graph.Problem_1976;
 import Graph.Problem_200;
 import Graph.Problem_2192;
 import Graph.Problem_2285;
@@ -240,7 +241,12 @@ public class Main {
 		// Problem_309 p309=new Problem_309(); 
 		// Problem_790_Google p790=new Problem_790_Google();
 		// Problem_55_Google p55=new Problem_55_Google();
-		Problem_926_Google p926=new Problem_926_Google();
+		// Problem_926_Google p926=new Problem_926_Google();
+		// Problem_64 p64=new Problem_64();
+		// Problem_983 p983=new Problem_983();
+		// Problem_1976 p1976=new Problem_1976();
+		// Problem_3341 p3341=new Problem_3341();
+		Problem_3342 p3342=new Problem_3342();
 		
 	}
 }
