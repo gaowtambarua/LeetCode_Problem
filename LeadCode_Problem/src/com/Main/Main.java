@@ -5,7 +5,7 @@ import DP.Hard.Problem_1239;
 import DP.Hard.Problem_1335;
 import DP.Hard.Problem_1751;
 import DP.Hard.Problem_264;
-import DP.Hard.Problem_514;
+import DP.Hard.*;
 import DP.Medium.*;
 import Function.Reverse;
 import Graph.Problem_1061_DSU;
@@ -246,7 +246,8 @@ public class Main {
 		// Problem_983 p983=new Problem_983();
 		// Problem_1976 p1976=new Problem_1976();
 		// Problem_3341 p3341=new Problem_3341();
-		Problem_3342 p3342=new Problem_3342();
-		
+		// Problem_3342 p3342=new Problem_3342();
+		// Problem_1402_Microsoft p1402=new Problem_1402_Microsoft();
+		Problem_827_Google p1402=new Problem_827_Google();
 	}
 }
